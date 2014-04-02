@@ -4,4 +4,4 @@ from mgt3101 import app
 
 @app.route('/')
 def index():
-  return "It works!"
+  return render_template('index.html')
