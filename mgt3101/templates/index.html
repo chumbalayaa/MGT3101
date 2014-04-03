@@ -103,11 +103,11 @@
         </div>
     </section>
 
-    <section id="contact" class="container content-section text-center" style="padding-top:0px;">
+    <section id="contact" class="container content-section text-center" style="padding-top:30px;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Pictures</h2>
-                <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="height:200px;">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -118,6 +118,7 @@
                   <div class="carousel-inner">
                     <div class="active item">
                       <h2>Slide 1</h2>
+                      <img src="{{ url_for('static', filename='images/trevor.JPG') }}" alt="Trev">
                       <div class="carousel-caption">
                         <h3>First slide label</h3>
                         <p>Lorem ipsum dolor sit amet consectetur…</p>
@@ -125,6 +126,7 @@
                     </div>
                     <div class="item">
                       <h2>Slide 2</h2>
+                      <img src="{{ url_for('static', filename='images/trevor.JPG') }}" alt="Trev">
                       <div class="carousel-caption">
                         <h3>Second slide label</h3>
                         <p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
@@ -132,6 +134,7 @@
                     </div>
                     <div class="item">
                       <h2>Slide 3</h2>
+                      <img src="{{ url_for('static', filename='images/trevor.JPG') }}" alt="Trev">
                       <div class="carousel-caption">
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna vel…</p>
